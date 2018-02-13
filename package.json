@@ -1,0 +1,24 @@
+{
+  "name": "whiteboard-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^22.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbixby/whiteboard-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianbixby/whiteboard-challenge/issues"
+  },
+  "homepage": "https://github.com/brianbixby/whiteboard-challenge#readme"
+}
