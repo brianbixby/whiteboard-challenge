@@ -27,12 +27,26 @@ List.prototype.pop = function() {
   return popped;
 }
 
+// List.prototype.map = function(callback) {
+//   for (let prop in this) {
+//     console.log("this    this: ", this[prop]);
+//     this[prop] = this[prop].map(callback);
+//     // this[prop] = this[prop].map.call(this[prop], callback);
+//   }
+//   return this;
+// }
+// return List.prototype.map.call(this, callback);
+
 var list = new List(10, 20, 30);
 var copiedlist = list.copy();
 var pushedList = list.push(40);
 var poppedList = list.pop();
+var mapped = list.map(function(n) {return n*2;});
 
-console.log('My constructed list: ', list);
-console.log('My copied list: ', copiedlist);
-console.log('My pushed list: ', pushedList);
-console.log('My popped list: ', poppedList);
+// console.log('My constructed list: ', list);
+// console.log('My copied list: ', copiedlist);
+// console.log('My pushed list: ', pushedList);
+// console.log('My popped list: ', poppedList);
+console.log('Mapped: ', mapped);
+
+// .map.call(collection, callback)
