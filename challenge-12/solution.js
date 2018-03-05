@@ -14,5 +14,5 @@ module.exports = linkedList => {
     current = current.next
   }
   newLL.val = current.val
-  return newLL;
+  return newLL; 
 };
