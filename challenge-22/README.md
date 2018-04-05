@@ -1,0 +1,1 @@
+Create a function that accepts a BST and a "find" as it's inputs. Your function should traverse the BST and return true if the "find" value is found in a node on the tree. It should return false if not. You may use whatever traversal method(s) you would deem fit.
