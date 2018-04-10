@@ -18,7 +18,7 @@ afterEach(() => {
 })
 
 describe('bst value checker traverse bst', () => {
-  it.only('should return true', () => {
+  it('should return true', () => {
     expect(this.bst.bstValueChecker(6)).toBeTruthy();
   })
 });
