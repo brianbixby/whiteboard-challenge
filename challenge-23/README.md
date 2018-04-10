@@ -1,0 +1,2 @@
+
+Create a function that accepts a BST and a "remove" as it's inputs. Your function should traverse the BST and remove a node with the value passed in as the "remove". Your tree should be shifted to retain proper ordering after the removal.
