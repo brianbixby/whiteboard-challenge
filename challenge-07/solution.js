@@ -10,6 +10,15 @@ function findMissing(arr) {
 }
 
 // function findMissing(arr) {
+//   let total = arr.reduce((acc, curr, idx) => {
+//     acc[0] += curr;
+//     acc[1] += idx;
+//     return acc;
+//   }, [0, 0]);
+//   return total[1] + 199 - total[0];
+// }
+
+// function findMissing(arr) {
 //   for(let i=1; i<=100; i++) {
 //     if(arr.indexOf(i)<0) {
 //       console.log(i);
